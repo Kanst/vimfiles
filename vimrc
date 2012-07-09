@@ -40,6 +40,8 @@ Bundle 'csexton/jekyll.vim'
 Bundle 'mattn/gist-vim'
 " Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-vividchalk'
+Bundle 'jgdavey/vim-railscasts'
+Bundle 'tomasr/molokai'
 
 filetype plugin indent on         " Required for Vundle
 syntax enable
