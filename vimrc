@@ -13,7 +13,7 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 Bundle 'mileszs/ack.vim'
-" Bundle 'scrooloose/nerdtree'
+Bundle 'scrooloose/nerdtree'
 Bundle 'slack/vim-bufexplorer'
 Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-rails'
@@ -42,12 +42,15 @@ Bundle 'mattn/gist-vim'
 Bundle 'tpope/vim-vividchalk'
 Bundle 'jgdavey/vim-railscasts'
 Bundle 'tomasr/molokai'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'flazz/vim-colorschemes'
+Bundle 'ctags.vim'
 
 filetype plugin indent on         " Required for Vundle
 syntax enable
 
 set nowrap                        " Don't wrap lines
-set scrolloff=3                   " Show 3 lines of context around the cursor.
+set scrolloff=7                   " Show 3 lines of context around the cursor.
 set tabstop=2 shiftwidth=2        " A tab is two spaces
 set expandtab                     " Use spaces, not tabs
 set backspace=indent,eol,start    " Backspace through everything in insert mode
@@ -163,8 +166,11 @@ map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
 au FileType coffee map <leader>rr :!coffee %<CR>
-au FileType javascript map <leader>rj :!node %<CR>
+au FileType javascript map <leader>rr :!node %<CR>
+au FileType ruby map <leader>rr :!ruby %<CR>
 map <leader>cs :ConqueTerm zsh<CR>
+
+map <leader>ss :e ~/.scratch<CR>
 
 " Clear out a search
 nnoremap <leader><space> :noh<cr>
