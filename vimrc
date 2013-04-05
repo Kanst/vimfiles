@@ -45,7 +45,10 @@ Bundle 'tomasr/molokai'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'ctags.vim'
-
+Bundle 'Python-mode-klen'
+Bundle 'vim-django'
+Bundle 'chef.vim'
+Bundle 'sjl/badwolf'
 filetype plugin indent on         " Required for Vundle
 syntax enable
 
