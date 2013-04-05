@@ -4,7 +4,7 @@
 `cd && mv .vim .vim.orig && mv .vimrc .vimrc.orig && mv .gvimrc .gvimrc.orig`
 
 2. Clone config to .vim directory:
-`git clone https://github.com/resure/vimfiles .vim`
+`git clone https://github.com/Kanst/vimfiles .vim`
 
 3. Create .vimrc and .gvimrc that load another configs:
 `echo 'source ~/.vim/vimrc' > .vimrc
