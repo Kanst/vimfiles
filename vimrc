@@ -11,10 +11,10 @@ filetype off                      " Required for VUndle
 set rtp+=~/.vim/bundle/vundle
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+" Bundle 'gmarik/vundle'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'
-Bundle 'slack/vim-bufexplorer'
+" Bundle 'slack/vim-bufexplorer'
 Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-markdown'
@@ -29,10 +29,10 @@ Bundle 'groenewege/vim-less'
 " Bundle 'Lokaltog/vim-easymotion'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'rson/vim-conque'
+" Bundle 'rson/vim-conque'
 Bundle 'sickill/vim-pasta'
 Bundle 'Lokaltog/vim-powerline'
-Bundle 'bbommarito/vim-slim'
+" Bundle 'bbommarito/vim-slim'
 Bundle 'wlangstroth/vim-haskell'
 Bundle 'pangloss/vim-erlang'
 Bundle 'vim-scripts/L9'
@@ -46,7 +46,6 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'ctags.vim'
 Bundle 'Python-mode-klen'
-Bundle 'vim-django'
 Bundle 'chef.vim'
 Bundle 'sjl/badwolf'
 filetype plugin indent on         " Required for Vundle
@@ -54,7 +53,7 @@ syntax enable
 
 set nowrap                        " Don't wrap lines
 set scrolloff=7                   " Show 3 lines of context around the cursor.
-set tabstop=2 shiftwidth=2        " A tab is two spaces
+set tabstop=4 shiftwidth=4        " A tab is two spaces
 set expandtab                     " Use spaces, not tabs
 set backspace=indent,eol,start    " Backspace through everything in insert mode
 
@@ -192,4 +191,3 @@ set guioptions-=b " no scrollbar on the bottom
 set guioptions=aiA
 
 source ~/.vim/russian             " Russian key maps.
-
