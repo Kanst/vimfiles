@@ -193,3 +193,6 @@ set guioptions-=b " no scrollbar on the bottom
 set guioptions=aiA
 
 source ~/.vim/russian             " Russian key maps.
+
+set background=dark
+colorscheme gruvbox
