@@ -49,6 +49,7 @@ Bundle 'Python-mode-klen'
 Bundle 'chef.vim'
 Bundle 'sjl/badwolf'
 Bundle 'tbastos/vim-lua'
+Bundle 'morhetz/gruvbox'
 filetype plugin indent on         " Required for Vundle
 syntax enable
 
