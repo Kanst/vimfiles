@@ -50,6 +50,7 @@ Bundle 'chef.vim'
 Bundle 'sjl/badwolf'
 Bundle 'tbastos/vim-lua'
 Bundle 'morhetz/gruvbox'
+Bundle 'suan/vim-instant-markdown'
 filetype plugin indent on         " Required for Vundle
 syntax enable
 
