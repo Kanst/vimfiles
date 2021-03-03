@@ -51,6 +51,8 @@ Bundle 'sjl/badwolf'
 Bundle 'tbastos/vim-lua'
 Bundle 'morhetz/gruvbox'
 Bundle 'suan/vim-instant-markdown'
+Bundle 'fatih/vim-go'
+Bundle 'dense-analysis/ale'
 filetype plugin indent on         " Required for Vundle
 syntax enable
 
