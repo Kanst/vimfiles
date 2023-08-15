@@ -19,7 +19,7 @@ Bundle 'tpope/vim-bundler'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-markdown'
 Bundle 'tpope/vim-git'
-Bundle 'tpope/vim-fugitive'
+" Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-eunuch'
@@ -45,14 +45,17 @@ Bundle 'tomasr/molokai'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'flazz/vim-colorschemes'
 Bundle 'ctags.vim'
-Bundle 'Python-mode-klen'
+" Bundle 'Python-mode-klen'
+Bundle 'python-mode'
 Bundle 'chef.vim'
 Bundle 'sjl/badwolf'
 Bundle 'tbastos/vim-lua'
 Bundle 'morhetz/gruvbox'
 Bundle 'suan/vim-instant-markdown'
-Bundle 'fatih/vim-go'
 Bundle 'dense-analysis/ale'
+" Bundle 'fatih/vim-go'
+Bundle 'hashivim/vim-terraform'
+let g:go_version_warning = 0
 filetype plugin indent on         " Required for Vundle
 syntax enable
 
@@ -199,3 +202,5 @@ source ~/.vim/russian             " Russian key maps.
 
 set background=dark
 colorscheme gruvbox
+
+let g:pymode_options_max_line_length = 180
