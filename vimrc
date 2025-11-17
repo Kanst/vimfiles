@@ -51,10 +51,10 @@ Bundle 'chef.vim'
 Bundle 'sjl/badwolf'
 Bundle 'tbastos/vim-lua'
 Bundle 'morhetz/gruvbox'
-Bundle 'suan/vim-instant-markdown'
+" Bundle 'suan/vim-instant-markdown'
 Bundle 'dense-analysis/ale'
 " Bundle 'fatih/vim-go'
-Bundle 'hashivim/vim-terraform'
+" Bundle 'hashivim/vim-terraform'
 let g:go_version_warning = 0
 filetype plugin indent on         " Required for Vundle
 syntax enable
